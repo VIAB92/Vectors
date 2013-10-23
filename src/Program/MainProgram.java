@@ -4,8 +4,11 @@
  */
 package Program;
 
-//import Vectors.Vector;
+import Vectors.Vector;
 
+import Factories.ArrayVectorFactory;
+import Factories.LinkedListVectorFactory;
+import Factories.VectorFactory;
 import Vectors.ArrayVector;
 import Vectors.JLinkedListVector;
 import Vectors.LinkedListVector;
@@ -136,7 +139,17 @@ public class MainProgram {
             System.exit(0);
         }
 
-
+        System.out.println("Проверка фабричного метода");
+        VectorFactory vf = new LinkedListVectorFactory();
+        Vectors.Vectors.setVectorFactory(vf);
+        Vector myNewMade = Vectors.Vectors.createInstance(10);
+        myNewMade.printVector();
+        System.out.println("Вектор принадлежит классу: "+myNewMade.getClass());
+        vf = new ArrayVectorFactory();
+        Vectors.Vectors.setVectorFactory(vf);
+        myNewMade = Vectors.Vectors.createInstance(5);
+        myNewMade.printVector();
+        System.out.println("А теперь вектор принадлежит классу: "+myNewMade.getClass());
 
     }
 }

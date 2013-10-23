@@ -165,20 +165,13 @@ public class ArrayVector implements Vector, Cloneable, Iterable, Iterator, Seria
     {
         ArrayVector newv = (ArrayVector)super.clone();
 
-         /*Имеет ли смысл??
-         for (int i=0; i<this.getSize(); i++)
-         {
-             newv.setElement(i, this.getElement(i));
-
-         }
-         */
         return newv;
     }
 
 
     @Override
     public Iterator iterator() {
-        return this;  //To change body of implemented methods use File | Settings | File Templates.
+        return this;
     }
 
     @Override

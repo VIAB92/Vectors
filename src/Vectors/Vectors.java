@@ -4,6 +4,8 @@
  */
 package Vectors;
 
+import Factories.ArrayVectorFactory;
+import Factories.VectorFactory;
 import Sorters.Sorter;
 
 import java.io.*;
@@ -15,10 +17,12 @@ import java.util.ArrayList;
  * @author user
  */
 public class Vectors {
+    static VectorFactory vectorFactory = new ArrayVectorFactory();
+
     //Умножение на скаляр
     public static Vector multiplyVectorOn(Vector myVector, double value)
     {
-         Vector vect = new LinkedListVector(myVector);
+         Vector vect = createInstance(myVector.getSize());
         for (int i=0; i<myVector.getSize(); i++)
         {
             vect.setElement(i, myVector.getElement(i)*value);
@@ -37,7 +41,7 @@ public class Vectors {
         }
         else
         {
-            Vector vect = new LinkedListVector(myVector);
+            Vector vect = createInstance(myVector.getSize());
             for (int i=0; i<myVector.getSize(); i++)
             {
                 vect.setElement(i, vect.getElement(i)+anotherVector.getElement(i));
@@ -57,7 +61,7 @@ public class Vectors {
             double value = randomGenerator.nextDouble();
             array[i]=value;
         }
-        Vector vect = new JLinkedListVector();
+        Vector vect = createInstance(n);
         vect.fillFromArray(array);
         return vect;
     }
@@ -99,7 +103,8 @@ public class Vectors {
         {
             array[i]=vals.get(i);
         }
-        Vector myVector = new JLinkedListVector(array);
+        Vector myVector = createRandomVector(array.length);
+        myVector.fillFromArray(array);
         return myVector;
 
 
@@ -135,10 +140,26 @@ public class Vectors {
         {
             array[i]=vals.get(i);
         }
-        Vector myVector = new JLinkedListVector(array);
+        Vector myVector = createInstance(array.length);
+        myVector.fillFromArray(array);
         return myVector;
 
     }
 
+    public static void setVectorFactory(VectorFactory vf)
+    {
+        vectorFactory = vf;
+    }
 
+    public static Vector createInstance(int size)
+    {
+        Vector newVector = vectorFactory.createVector(size);
+        return newVector;
+    }
+
+    public static Vector createInstance()
+    {
+        Vector newVector = vectorFactory.createVector();
+        return newVector;
+    }
 }

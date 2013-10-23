@@ -281,7 +281,7 @@ public class LinkedListVector implements Vector, Cloneable, Iterable, Iterator, 
             iTemp.setValue(arr[i]);
         }
 
-        iTemp.next=iFirst;                  //ну циклический же!!!
+        iTemp.next=iFirst;
         iFirst.prev=iTemp;
     }
 
@@ -340,19 +340,8 @@ public class LinkedListVector implements Vector, Cloneable, Iterable, Iterator, 
 
     public Object clone() throws CloneNotSupportedException
     {
-        /* Имеет ли смысл??
-         * int size = this.getSize();
-         double[] vals = new double[size];
-         for(int i=0; i<size; i++)
-         {
-             vals[i]=this.getElement(i);
-         }*/
+
         LinkedListVector newVector = (LinkedListVector)super.clone();
-       /* newVector = new LinkedListVector(this); */
-         /*for(double val:vals)
-         {
-             newVector.addElement(val);
-         }*/
 
 
         newVector.fillFromVector(this);
