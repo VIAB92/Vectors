@@ -12,7 +12,7 @@ import java.util.Iterator;
  * Time: 14:48
  * To change this template use File | Settings | File Templates.
  */
-public class JArrayListVector implements Vector, Iterable{
+public class JArrayListVector extends ObservableVector implements Vector, Iterable{
     private ArrayList<Double> myList;
     private int count=0;
 
@@ -42,6 +42,8 @@ public class JArrayListVector implements Vector, Iterable{
 
     public void setElement(int index, double value) {
        myList.set(index, value);
+       element = index;
+        notifyObserver("element");
     }
 
     public int getSize() {
@@ -59,6 +61,7 @@ public class JArrayListVector implements Vector, Iterable{
         {
             this.setElement(i, this.getElement(i)*value);
         }
+        notifyObserver("vector");
     }
 
     public void fillFromArray(double[] arr) {
@@ -68,6 +71,7 @@ public class JArrayListVector implements Vector, Iterable{
         {
             myList.add(value);
         }
+        notifyObserver("vector");
     }
 
     public void fillFromVector(Vector vector) {
@@ -77,6 +81,7 @@ public class JArrayListVector implements Vector, Iterable{
         {
             myList.add(vector.getElement(i));
         }
+        notifyObserver("vector");
     }
 
     public void sumWithVector(Vector anotherVector) {
@@ -92,6 +97,7 @@ public class JArrayListVector implements Vector, Iterable{
             }
             System.out.println("Сложение векторов прошло успешно!");
             this.printVector();
+            notifyObserver("vector");
         }
     }
 

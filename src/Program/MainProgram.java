@@ -4,14 +4,12 @@
  */
 package Program;
 
-import Vectors.Vector;
+import ObservRealization.VectorManager;
+import Vectors.*;
 
 import Factories.ArrayVectorFactory;
 import Factories.LinkedListVectorFactory;
 import Factories.VectorFactory;
-import Vectors.ArrayVector;
-import Vectors.JLinkedListVector;
-import Vectors.LinkedListVector;
 import Vectors.Vector;
 
 import java.io.*;
@@ -62,7 +60,7 @@ public class MainProgram {
         myVector.printVector();
         System.out.println("Теперь первый элемент: "+myVector.getElement(0));
         //сортировка
-        Vectors.Vectors.sort(vect2);
+        Vectors.sort(vect2);
         System.out.println("Использование toString()");
         System.out.println(vect2.toString());
         System.out.println("Равны ли вектора по equals()?");
@@ -84,25 +82,25 @@ public class MainProgram {
         for(Object val:vct)
             System.out.println(val);
         System.out.println("Генерация вектора:");
-        Vector vector_gen = Vectors.Vectors.createRandomVector(7);
+        Vector vector_gen = Vectors.createRandomVector(7);
         vector_gen.printVector();
 
         //Проверка записи в байтовый поток
         OutputStream f0 = new FileOutputStream("file1.txt");
-        Vectors.Vectors.outputVector(vector_gen, f0);
+        Vectors.outputVector(vector_gen, f0);
          f0.close();
         InputStream fInp = new FileInputStream("file1.txt");
-        Vector vect = Vectors.Vectors.inputVector(fInp);
+        Vector vect =Vectors.inputVector(fInp);
         fInp.close();
         System.out.println("Считайнный из файла вектор TEST inputVector():");
         vect.printVector();
 
         //Проверка записи в символьный поток
         FileWriter fw = new FileWriter("file2.txt");
-        Vectors.Vectors.writeVector(vector_gen, fw);
+        Vectors.writeVector(vector_gen, fw);
         fw.close();
         FileReader rdr = new FileReader("file2.txt");
-        Vector vect1 = Vectors.Vectors.readVector(rdr);
+        Vector vect1 = Vectors.readVector(rdr);
         System.out.println("Проверка readVector():");
         vect.printVector();
         System.out.println("Проверка сериализации:");
@@ -129,7 +127,7 @@ public class MainProgram {
             Vector vector_des;
             FileInputStream fis = new FileInputStream("serial");
             ObjectInputStream ois = new ObjectInputStream(fis);
-            vector_des = (Vectors.Vector)ois.readObject();
+            vector_des = (Vector)ois.readObject();
             ois.close();
             vector_des.printVector();
         }
@@ -141,13 +139,13 @@ public class MainProgram {
 
         System.out.println("Проверка фабричного метода");
         VectorFactory vf = new LinkedListVectorFactory();
-        Vectors.Vectors.setVectorFactory(vf);
-        Vector myNewMade = Vectors.Vectors.createInstance(10);
+        Vectors.setVectorFactory(vf);
+        Vector myNewMade = Vectors.createInstance(10);
         myNewMade.printVector();
         System.out.println("Вектор принадлежит классу: "+myNewMade.getClass());
         vf = new ArrayVectorFactory();
-        Vectors.Vectors.setVectorFactory(vf);
-        myNewMade = Vectors.Vectors.createInstance(5);
+        Vectors.setVectorFactory(vf);
+        myNewMade = Vectors.createInstance(5);
         myNewMade.printVector();
         System.out.println("А теперь вектор принадлежит классу: "+myNewMade.getClass());
 
@@ -156,11 +154,18 @@ public class MainProgram {
         java.util.Vector<Double> mynewv = new java.util.Vector<Double>();
         mynewv.add(13.2);
         mynewv.add(14.5);
-        Vector adapt = Vectors.Vectors.getAdaptedVector(mynewv);
+        Vector adapt = Vectors.getAdaptedVector(mynewv);
         boolean bol = adapt instanceof Vector;
         System.out.println("Принадлежит ли adapt интерфейсу Vector? - "+bol);
         System.out.println("Проверка заместителя:");
-        Vector prot = Vectors.Vectors.getProtectedVector(adapt);
+        Vector prot = Vectors.getProtectedVector(adapt);
         prot.setElement(0, 12);
+
+        System.out.println("Проверка слушателя");
+        VectorManager vm = new VectorManager();
+        ArrayVector newwest = new ArrayVector(1.2, 3.5, 6.9);
+        newwest.registerObserver(vm);
+        newwest.setElement(1, 5.5);
+
     }
 }

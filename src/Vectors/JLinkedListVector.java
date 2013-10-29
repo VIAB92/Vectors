@@ -11,7 +11,7 @@ import java.util.LinkedList;
  * Time: 15:06
  * To change this template use File | Settings | File Templates.
  */
-public class JLinkedListVector implements Vector, Iterable {
+public class JLinkedListVector extends ObservableVector implements Vector, Iterable {
     LinkedList<Double> myList;
     private int count=0;
 
@@ -43,6 +43,9 @@ public class JLinkedListVector implements Vector, Iterable {
     @Override
     public void setElement(int index, double value) {
         myList.set(index, value);
+        element=index;
+        notifyObserver("element");
+
     }
 
     @Override
@@ -65,6 +68,7 @@ public class JLinkedListVector implements Vector, Iterable {
         {
             this.setElement(i, this.getElement(i)*value);
         }
+        notifyObserver("vector");
     }
 
     @Override
@@ -75,6 +79,7 @@ public class JLinkedListVector implements Vector, Iterable {
         {
             myList.add(val);
         }
+        notifyObserver("vector");
     }
 
     @Override
@@ -85,6 +90,7 @@ public class JLinkedListVector implements Vector, Iterable {
         {
             myList.add(vector.getElement(i));
         }
+        notifyObserver("vector");
     }
 
     @Override
@@ -101,6 +107,7 @@ public class JLinkedListVector implements Vector, Iterable {
             }
             System.out.println("Сложение векторов прошло успешно!");
             this.printVector();
+            notifyObserver("vector");
         }
     }
 

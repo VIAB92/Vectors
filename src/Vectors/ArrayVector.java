@@ -13,7 +13,7 @@ import java.util.Iterator;
  *
  * @author user
  */
-public class ArrayVector implements Vector,  Iterable{
+public class ArrayVector extends ObservableVector implements Vector,  Iterable{
     private double[] myVector;
     private int count = 0;
 
@@ -46,6 +46,8 @@ public class ArrayVector implements Vector,  Iterable{
     public void setElement(int index, double value)
     {
         this.myVector[index] = value;
+        element=index;
+        notifyObserver("element");
     }
 
     //Получение длины вектора
@@ -86,6 +88,7 @@ public class ArrayVector implements Vector,  Iterable{
 
             System.out.println("Сложение векторов прошло успешно!");
             this.printVector();
+            notifyObserver("vector");
         }
     }
 
@@ -98,6 +101,7 @@ public class ArrayVector implements Vector,  Iterable{
             myVector[i] *= value;
         }
         this.printVector();
+        notifyObserver("vector");
     }
 
     @Override
@@ -109,6 +113,7 @@ public class ArrayVector implements Vector,  Iterable{
         {
             myVector[i] = arr[i];
         }
+        notifyObserver("vector");
 
     }
 
@@ -121,6 +126,7 @@ public class ArrayVector implements Vector,  Iterable{
         {
             myVector[i] = vector.getElement(i);
         }
+        notifyObserver("vector");
     }
 
     public void printVector()

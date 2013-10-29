@@ -4,6 +4,8 @@
  */
 package Vectors;
 
+import ObservRealization.Observable;
+
 import java.io.Serializable;
 import java.util.Iterator;
 

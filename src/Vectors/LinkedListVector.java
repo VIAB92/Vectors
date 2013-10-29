@@ -13,7 +13,7 @@ import java.util.Iterator;
  *
  * @author user
  */
-public class LinkedListVector implements Vector, Iterable{
+public class LinkedListVector extends ObservableVector implements Vector, Iterable{
     private int count=0;
     @Override
     public Iterator iterator() {
@@ -156,6 +156,7 @@ public class LinkedListVector implements Vector, Iterable{
             iInterim.prev = iTemp;
         }
         length--;
+        notifyObserver("vector");
     }
 
     //получаем элемент по индексу
@@ -179,6 +180,8 @@ public class LinkedListVector implements Vector, Iterable{
         Element iTemp = iFirst;
         for (int i=1; i<=index; i++) iTemp = iTemp.next;
         iTemp.setValue(value);
+        element=index;
+        notifyObserver("element");
     }
 
     //получаем длину вектора
@@ -229,6 +232,7 @@ public class LinkedListVector implements Vector, Iterable{
             System.out.println("Сложение вектором прошло успешно!");
             this.printVector();
         }
+        notifyObserver("vector");
     }
 
     /*Умножение вектора на скаляр*/
@@ -240,6 +244,7 @@ public class LinkedListVector implements Vector, Iterable{
         }
         System.out.println("Умножение вектора на скаляр прошло успешно!");
         this.printVector();
+        notifyObserver("vector");
     }
 
     @Override
@@ -265,6 +270,7 @@ public class LinkedListVector implements Vector, Iterable{
 
         iTemp.next=iFirst;
         iFirst.prev=iTemp;
+        notifyObserver("vector");
     }
 
     @Override
@@ -288,6 +294,7 @@ public class LinkedListVector implements Vector, Iterable{
 
         iTemp.next=iFirst;
         iFirst.prev=iTemp;
+        notifyObserver("vector");
     }
 
     public String toString()

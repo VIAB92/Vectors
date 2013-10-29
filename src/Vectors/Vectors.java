@@ -21,6 +21,7 @@ import java.util.ArrayList;
 public class Vectors {
     static VectorFactory vectorFactory = new ArrayVectorFactory();
 
+
     //Умножение на скаляр
     public static Vector multiplyVectorOn(Vector myVector, double value)
     {
