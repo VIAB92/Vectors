@@ -4,6 +4,8 @@
  */
 package Vectors;
 
+import Iterators.VectorIterator;
+
 import java.io.Serializable;
 import java.util.Iterator;
 
@@ -11,31 +13,11 @@ import java.util.Iterator;
  *
  * @author user
  */
-public class LinkedListVector implements Vector, Cloneable, Iterable, Iterator, Serializable{
+public class LinkedListVector implements Vector, Iterable{
     private int count=0;
     @Override
     public Iterator iterator() {
-        return this;
-    }
-
-    @Override
-    public boolean hasNext() {
-        if(count<this.getSize())
-            return true;
-        return false;
-    }
-
-    @Override
-    public Object next() {
-        if (count==this.getSize())
-            throw new ArrayIndexOutOfBoundsException();
-        count++;
-        return this.getElement(count-1);
-    }
-
-    @Override
-    public void remove() {
-        throw new UnsupportedOperationException();
+        return new VectorIterator(this);
     }
 
     /*Отдельные элементы списка*/

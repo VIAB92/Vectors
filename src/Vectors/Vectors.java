@@ -4,8 +4,10 @@
  */
 package Vectors;
 
+import Adapters.JVectorAdapter;
 import Factories.ArrayVectorFactory;
 import Factories.VectorFactory;
+import Proxies.ProtectedVector;
 import Sorters.Sorter;
 
 import java.io.*;
@@ -161,5 +163,17 @@ public class Vectors {
     {
         Vector newVector = vectorFactory.createVector();
         return newVector;
+    }
+
+    public static Vector getAdaptedVector(java.util.Vector<Double> jVector)
+    {
+        Vector newVector = new JVectorAdapter(jVector);
+        return newVector;
+    }
+
+    public static Vector getProtectedVector(Vector vector)
+    {
+        Vector protectedVector = new ProtectedVector(vector);
+        return protectedVector;
     }
 }

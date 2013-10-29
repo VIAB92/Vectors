@@ -1,5 +1,7 @@
 package Vectors;
 
+import Iterators.VectorIterator;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -10,7 +12,7 @@ import java.util.Iterator;
  * Time: 14:48
  * To change this template use File | Settings | File Templates.
  */
-public class JArrayListVector implements Vector, Iterator, Iterable, Serializable {
+public class JArrayListVector implements Vector, Iterable{
     private ArrayList<Double> myList;
     private int count=0;
 
@@ -108,27 +110,7 @@ public class JArrayListVector implements Vector, Iterator, Iterable, Serializabl
 
     @Override
     public Iterator iterator() {
-        return this;
-    }
-
-    @Override
-    public boolean hasNext() {
-         if(count<this.getSize())
-             return true;
-        return false;
-    }
-
-    @Override
-    public Object next() {
-         if (count==this.getSize())
-            throw new ArrayIndexOutOfBoundsException();
-         count++;
-        return this.getElement(count-1);
-    }
-
-    @Override
-    public void remove() {
-        throw new UnsupportedOperationException();
+        return new VectorIterator(this);
     }
 
     public String toString()

@@ -4,6 +4,8 @@
  */
 package Vectors;
 
+import Iterators.VectorIterator;
+
 import java.io.Serializable;
 import java.util.Iterator;
 
@@ -11,7 +13,7 @@ import java.util.Iterator;
  *
  * @author user
  */
-public class ArrayVector implements Vector, Cloneable, Iterable, Iterator, Serializable{
+public class ArrayVector implements Vector,  Iterable{
     private double[] myVector;
     private int count = 0;
 
@@ -171,26 +173,7 @@ public class ArrayVector implements Vector, Cloneable, Iterable, Iterator, Seria
 
     @Override
     public Iterator iterator() {
-        return this;
+        return new VectorIterator(this);
     }
 
-    @Override
-    public boolean hasNext() {
-        if (count<this.getSize())
-            return true;
-        return false;
-    }
-
-    @Override
-    public Object next() {
-        if(count==this.getSize())
-            throw new ArrayIndexOutOfBoundsException();
-        count++;
-        return this.getElement(count-1);
-    }
-
-    @Override
-    public void remove() {
-       throw new UnsupportedOperationException();
-    }
 }

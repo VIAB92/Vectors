@@ -151,5 +151,16 @@ public class MainProgram {
         myNewMade.printVector();
         System.out.println("А теперь вектор принадлежит классу: "+myNewMade.getClass());
 
+
+        System.out.println("Проверка адаптера:");
+        java.util.Vector<Double> mynewv = new java.util.Vector<Double>();
+        mynewv.add(13.2);
+        mynewv.add(14.5);
+        Vector adapt = Vectors.Vectors.getAdaptedVector(mynewv);
+        boolean bol = adapt instanceof Vector;
+        System.out.println("Принадлежит ли adapt интерфейсу Vector? - "+bol);
+        System.out.println("Проверка заместителя:");
+        Vector prot = Vectors.Vectors.getProtectedVector(adapt);
+        prot.setElement(0, 12);
     }
 }

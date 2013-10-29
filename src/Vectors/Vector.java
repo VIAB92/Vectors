@@ -4,11 +4,14 @@
  */
 package Vectors;
 
+import java.io.Serializable;
+import java.util.Iterator;
+
 /**
  *
  * @author user
  */
-public interface Vector {
+public interface Vector extends Cloneable, Serializable{
     double getElement(int index);
     void setElement(int index, double value);
     int getSize();

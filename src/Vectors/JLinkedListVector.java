@@ -1,4 +1,6 @@
 package Vectors;
+import Iterators.VectorIterator;
+
 import java.io.Serializable;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -9,7 +11,7 @@ import java.util.LinkedList;
  * Time: 15:06
  * To change this template use File | Settings | File Templates.
  */
-public class JLinkedListVector implements Vector, Iterable, Iterator, Serializable {
+public class JLinkedListVector implements Vector, Iterable {
     LinkedList<Double> myList;
     private int count=0;
 
@@ -118,27 +120,7 @@ public class JLinkedListVector implements Vector, Iterable, Iterator, Serializab
 
     @Override
     public Iterator iterator() {
-        return this;
-    }
-
-    @Override
-    public boolean hasNext() {
-        if(count<this.getSize())
-            return true;
-        return false;
-    }
-
-    @Override
-    public Object next() {
-        if (count==this.getSize())
-            throw new ArrayIndexOutOfBoundsException();
-        count++;
-        return this.getElement(count-1);
-    }
-
-    @Override
-    public void remove() {
-        throw new UnsupportedOperationException();
+        return new VectorIterator(this);
     }
 
     public String toString()
