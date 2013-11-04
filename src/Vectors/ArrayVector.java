@@ -4,6 +4,7 @@
  */
 package Vectors;
 
+import Exceptioner.IncompatibleVectorSizesException;
 import Iterators.VectorIterator;
 
 import java.io.Serializable;
@@ -73,11 +74,10 @@ public class ArrayVector extends ObservableVector implements Vector,  Iterable{
     }
 
     //Сложение двух векторов
-    public void sumWithVector(Vector anotherVector)
-    {
+    public void sumWithVector(Vector anotherVector) throws IncompatibleVectorSizesException {
         if (myVector.length != anotherVector.getSize())
         {
-            System.out.println("Длины векторов не совпадают!");
+           throw new IncompatibleVectorSizesException("Ошибка суммирования");
         }
         else
         {

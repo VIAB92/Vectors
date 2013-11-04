@@ -1,5 +1,6 @@
 package Proxies;
 
+import Exceptioner.IncompatibleVectorSizesException;
 import Vectors.Vector;
 
 /**
@@ -43,7 +44,7 @@ public class ProtectedVector implements Vector {
     }
 
     @Override
-    public void sumWithVector(Vector anotherVector) {
+    public void sumWithVector(Vector anotherVector) throws IncompatibleVectorSizesException {
         vect.sumWithVector(anotherVector);
     }
 

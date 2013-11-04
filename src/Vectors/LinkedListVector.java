@@ -4,6 +4,7 @@
  */
 package Vectors;
 
+import Exceptioner.IncompatibleVectorSizesException;
 import Iterators.VectorIterator;
 
 import java.io.Serializable;
@@ -216,12 +217,11 @@ public class LinkedListVector extends ObservableVector implements Vector, Iterab
     }
 
     //Сложение двух векторов
-    public void sumWithVector(Vector anotherVector)
-    {
+    public void sumWithVector(Vector anotherVector) throws IncompatibleVectorSizesException {
 
         if (this.getSize() !=anotherVector.getSize())
         {
-            System.out.println("Длины векторов не совпадают!");
+            throw new IncompatibleVectorSizesException("Ошибка суммирования!");
         }
         else
         {

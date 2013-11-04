@@ -4,6 +4,7 @@
  */
 package Vectors;
 
+import Exceptioner.IncompatibleVectorSizesException;
 import ObservRealization.Observable;
 
 import java.io.Serializable;
@@ -19,7 +20,7 @@ public interface Vector extends Cloneable, Serializable{
     int getSize();
     void printVector();
     boolean compareWithVector(Vector anotherVector);
-    void sumWithVector(Vector anotherVector);
+    void sumWithVector(Vector anotherVector) throws IncompatibleVectorSizesException;
     void multiplyOn(double value);
     void fillFromArray(double[] arr);
     void fillFromVector(Vector vector);

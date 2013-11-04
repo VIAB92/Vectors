@@ -5,6 +5,7 @@
 package Vectors;
 
 import Adapters.JVectorAdapter;
+import Exceptioner.IncompatibleVectorSizesException;
 import Factories.ArrayVectorFactory;
 import Factories.VectorFactory;
 import Proxies.ProtectedVector;
@@ -35,12 +36,10 @@ public class Vectors {
     }
 
     //сложение векторов
-    public static Vector sumVectors(Vector myVector, Vector anotherVector)
-    {
+    public static Vector sumVectors(Vector myVector, Vector anotherVector) throws IncompatibleVectorSizesException {
         if (myVector.getSize() != anotherVector.getSize())
         {
-            System.out.println("Длины векторов не совпадают!");
-             return null;
+            throw new IncompatibleVectorSizesException("Ошибка суммирования!");
         }
         else
         {

@@ -1,4 +1,5 @@
 package Vectors;
+import Exceptioner.IncompatibleVectorSizesException;
 import Iterators.VectorIterator;
 
 import java.io.Serializable;
@@ -94,10 +95,10 @@ public class JLinkedListVector extends ObservableVector implements Vector, Itera
     }
 
     @Override
-    public void sumWithVector(Vector anotherVector) {
+    public void sumWithVector(Vector anotherVector) throws IncompatibleVectorSizesException {
         if (this.getSize()!=anotherVector.getSize())
         {
-            System.out.println("Размеры векторов не совпадают. Ошибка суммирования!");
+            throw new IncompatibleVectorSizesException("Ошибка суммирования!");
         }
         else
         {
