@@ -41,7 +41,8 @@ public class MainProgram {
         }   */
 
         /*ЗАДАНИЕ 1:*/
-      /*  Vector newVector = Vectors.createInstance(10);
+       /* System.out.println("Проверка задания 1:");
+        Vector newVector = Vectors.createInstance(10);
         Vector v2 = Vectors.createInstance(5);
         Vector v3 = Vectors.createInstance(7);
         WriteVector wv = new WriteVector(newVector);
@@ -58,9 +59,12 @@ public class MainProgram {
         wv2.start();
         rv2.start();
         wv3.start();
-        rv3.start();*/
-        Vector newVector = Vectors.createInstance(5);
-        SyncHelper sh = new SyncHelper(newVector);
+        rv3.start();
+        */
+
+        /*Задание 2:*/
+        Vector newVector1 = Vectors.createInstance(5);
+        SyncHelper sh = new SyncHelper(newVector1);
         new VectorWriter(sh);
         new VectorReader(sh);
 

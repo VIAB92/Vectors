@@ -5,10 +5,10 @@
     <ignored path="Lab3.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/LinkedListVector.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383565022065" ignored="false" />
-    <file path="/MainProgram.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383750465455" ignored="false" />
+    <file path="/MainProgram.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383765269312" ignored="false" />
     <file path="/Vector.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383565300290" ignored="false" />
     <file path="/ArrayVector.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383565261872" ignored="false" />
-    <file path="/Vectors.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383565429151" ignored="false" />
+    <file path="/Vectors.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383765141693" ignored="false" />
     <file path="/JArrayListVector.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383564981164" ignored="false" />
     <file path="/JLinkedListVector.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383565002443" ignored="false" />
     <file path="/fragment.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1382548973714" ignored="false" />
@@ -26,17 +26,18 @@
     <file path="/IncompatibleVectorSizesException.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383565221339" ignored="false" />
     <file path="/WriteVector.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383745710021" ignored="false" />
     <file path="/ReadVector.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383745674924" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../CommunTest/src/Q.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383748822710" ignored="false" />
+    <file path="$USER_HOME$/CommunTest/src/Q.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383748822710" ignored="false" />
     <file path="/Q.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383748819180" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../CommunTest/src/Producer.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383749074719" ignored="false" />
+    <file path="$USER_HOME$/CommunTest/src/Producer.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383749074719" ignored="false" />
     <file path="/Producer.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383749032885" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../CommunTest/src/Customer.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383749146115" ignored="false" />
+    <file path="$USER_HOME$/CommunTest/src/Customer.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383749146115" ignored="false" />
     <file path="/Customer.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383749143407" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../CommunTest/src/PCFixed.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383749236500" ignored="false" />
+    <file path="$USER_HOME$/CommunTest/src/PCFixed.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383749236500" ignored="false" />
     <file path="/PCFixed.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383749216213" ignored="false" />
     <file path="/SyncHelper.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383750776251" ignored="false" />
     <file path="/VectorWriter.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383750557630" ignored="false" />
     <file path="/VectorReader.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383752591239" ignored="false" />
+    <file path="/SynchronizedVector.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383765059538" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,10 +98,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainProgram.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainProgram.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Program/MainProgram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="29" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.0">
+            <state line="62" column="10" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.37037036">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SynchronizedVector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Vectors/SynchronizedVector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="34" selection-start="2658" selection-end="2658" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,37 +118,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SyncHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Vectors/SyncHelper.java">
+      <file leaf-file-name="JArrayListVector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Vectors/JArrayListVector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="22" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0">
+            <state line="15" column="13" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VectorWriter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Vectors/VectorWriter.java">
+      <file leaf-file-name="JLinkedListVector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Vectors/JLinkedListVector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="51" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
+            <state line="100" column="34" selection-start="2397" selection-end="2397" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VectorReader.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Vectors/VectorReader.java">
+      <file leaf-file-name="ObservableVector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Vectors/ObservableVector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="20" selection-start="526" selection-end="526" vertical-scroll-proportion="0.7527675">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WriteVector.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Vectors/WriteVector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="38" selection-start="244" selection-end="271" vertical-scroll-proportion="0.0">
+            <state line="8" column="22" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -147,16 +148,25 @@
       <file leaf-file-name="ReadVector.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Vectors/ReadVector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+            <state line="9" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VectorIndexOutOfBoundsException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exceptioner/VectorIndexOutOfBoundsException.java">
+      <file leaf-file-name="SyncHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Vectors/SyncHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="48" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
+            <state line="9" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListVector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Vectors/LinkedListVector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="332" column="34" selection-start="8434" selection-end="8443" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -165,25 +175,16 @@
       <file leaf-file-name="Vectors.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Vectors/Vectors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="37" selection-start="680" selection-end="694" vertical-scroll-proportion="0.0">
+            <state line="182" column="34" selection-start="5300" selection-end="5300" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VectorFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Factories/VectorFactory.java">
+      <file leaf-file-name="ArrayVector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Vectors/ArrayVector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayVectorFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Factories/ArrayVectorFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+            <state line="141" column="1" selection-start="3443" selection-end="4513" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -199,30 +200,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Vectors/ObservableVector.java" />
-        <option value="$PROJECT_DIR$/src/Vectors/Vector.java" />
         <option value="$PROJECT_DIR$/src/Vectors/ArrayVector.java" />
         <option value="$PROJECT_DIR$/src/Vectors/JArrayListVector.java" />
         <option value="$PROJECT_DIR$/src/Vectors/JLinkedListVector.java" />
         <option value="$PROJECT_DIR$/src/Vectors/LinkedListVector.java" />
-        <option value="$PROJECT_DIR$/src/Vectors/Vectors.java" />
         <option value="$PROJECT_DIR$/src/Proxies/ProtectedVector.java" />
         <option value="$PROJECT_DIR$/src/Exceptioner/IncompatibleVectorSizesException.java" />
         <option value="$PROJECT_DIR$/src/Exceptioner/VectorIndexOutOfBoundsException.java" />
         <option value="$PROJECT_DIR$/src/Vectors/ReadVector.java" />
         <option value="$PROJECT_DIR$/src/Vectors/WriteVector.java" />
-        <option value="$PROJECT_DIR$/src/Program/MainProgram.java" />
         <option value="$PROJECT_DIR$/src/Vectors/VectorWriter.java" />
         <option value="$PROJECT_DIR$/src/Vectors/SyncHelper.java" />
         <option value="$PROJECT_DIR$/src/Vectors/VectorReader.java" />
+        <option value="$PROJECT_DIR$/src/Factories/ArrayVectorFactory.java" />
+        <option value="$PROJECT_DIR$/src/Vectors/SynchronizedVector.java" />
+        <option value="$PROJECT_DIR$/src/Vectors/Vectors.java" />
+        <option value="$PROJECT_DIR$/src/Program/MainProgram.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -250,6 +251,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -265,7 +267,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Vector (Labs)" />
+              <option name="myItemId" value="Vectors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -275,7 +277,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Vector (Labs)" />
+              <option name="myItemId" value="Vectors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -293,7 +295,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Vector (Labs)" />
+              <option name="myItemId" value="Vectors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -307,7 +309,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Vector (Labs)" />
+              <option name="myItemId" value="Vectors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -319,63 +321,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vector (Labs)" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Iterators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vector (Labs)" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Factories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vector (Labs)" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exceptioner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -431,6 +378,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -456,19 +416,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -545,8 +492,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -556,13 +503,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32681242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32593855" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1872705" sideWeight="0.6777906" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32220945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18712121" sideWeight="0.67918086" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3208191" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -637,60 +585,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Vectors/JLinkedListVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="34" selection-start="2397" selection-end="2397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vectors/LinkedListVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="223" column="31" selection-start="5516" selection-end="5516" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Proxies/ProtectedVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="26" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vectors/ArrayVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="25" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Iterators/VectorIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="24" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exceptioner/IncompatibleVectorSizesException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="37" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exceptioner/VectorIndexOutOfBoundsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="48" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vectors/Vectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="37" selection-start="680" selection-end="694" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Factories/VectorFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="17" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
@@ -705,46 +599,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Proxies/ProtectedVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="26" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Iterators/VectorIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="24" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factories/VectorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factories/ArrayVectorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="11" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vectors/ArrayVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="1" selection-start="3443" selection-end="4513" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vectors/JArrayListVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vectors/JLinkedListVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="34" selection-start="2397" selection-end="2397" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vectors/ObservableVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="22" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Vectors/ReadVector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vectors/WriteVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="38" selection-start="244" selection-end="271" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/MainProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="29" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vectors/VectorWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="51" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Vectors/SyncHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="22" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vectors/VectorReader.java">
+    <entry file="file://$PROJECT_DIR$/src/Vectors/LinkedListVector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="20" selection-start="526" selection-end="526" vertical-scroll-proportion="0.7527675">
+        <state line="332" column="34" selection-start="8434" selection-end="8443" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vectors/SynchronizedVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="34" selection-start="2658" selection-end="2658" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vectors/Vectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="34" selection-start="5300" selection-end="5300" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Program/MainProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="10" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.37037036">
           <folding />
         </state>
       </provider>

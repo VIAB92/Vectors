@@ -176,4 +176,10 @@ public class Vectors {
         Vector protectedVector = new ProtectedVector(vector);
         return protectedVector;
     }
+
+    public static Vector synchronizedVector(Vector vector)
+    {
+        SynchronizedVector synchronizedVector = new SynchronizedVector(vector);
+        return synchronizedVector;
+    }
 }
