@@ -18,9 +18,11 @@ public class VectorReader implements Runnable {
 
     @Override
     public void run() {
-        while(true)
+        int count=0;
+        while(count<syncHelper.size)
         {
             syncHelper.read();
+            count++;
         }
     }
 }
