@@ -46,10 +46,11 @@ public class Vectors {
             Vector vect = createInstance(myVector.getSize());
             for (int i=0; i<myVector.getSize(); i++)
             {
-                vect.setElement(i, vect.getElement(i)+anotherVector.getElement(i));
+                vect.setElement(i, myVector.getElement(i)+anotherVector.getElement(i));
             }
 
             System.out.println("Сложение векторов прошло успешно!");
+
             return vect;
         }
     }

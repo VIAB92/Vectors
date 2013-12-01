@@ -105,6 +105,8 @@ public class LinkedListVector extends ObservableVector implements Vector, Iterab
         iFirst.prev=iTemp;
     }
 
+
+
     /*Добавление нового элемента в конец списка*/
     public void addElement(double value)
     {
