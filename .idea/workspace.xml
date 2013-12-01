@@ -8,10 +8,10 @@
     <file path="/MainProgram.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383765269312" ignored="false" />
     <file path="/Vector.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383565300290" ignored="false" />
     <file path="/ArrayVector.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383565261872" ignored="false" />
-    <file path="/Vectors.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1385897434244" ignored="false" />
+    <file path="/Vectors.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1385916464827" ignored="false" />
     <file path="/JArrayListVector.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383564981164" ignored="false" />
     <file path="/JLinkedListVector.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1383565002443" ignored="false" />
-    <file path="/fragment.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1382548973714" ignored="false" />
+    <file path="/fragment.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1385915582740" ignored="false" />
     <file path="/VectorFactory.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1382549722060" ignored="false" />
     <file path="/ArrayVectorFactory.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1382550505257" ignored="false" />
     <file path="/LinkedListVectorFactory.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1382550734846" ignored="false" />
@@ -42,6 +42,11 @@
     <file path="/SerialServer.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1385900713985" ignored="false" />
     <file path="/ParallelServer.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1385901208517" ignored="false" />
     <file path="/StartParallelServer.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1385899801938" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/Reflection/src/Summer.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1385910781269" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/Reflection/.idea/misc.xml" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1385910781269" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/Reflection/.idea/workspace.xml" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1385911932761" ignored="false" />
+    <file path="/Summator.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1385915749474" ignored="false" />
+    <file path="/ReflectionTest.java" changelist="d9b8c4f5-78a4-4ee2-a3e6-85aee525090a" time="1385915831579" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +61,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -93,6 +97,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -106,10 +111,7 @@
         <entry file="file://$PROJECT_DIR$/src/Client/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="85" column="31" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#194#202#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,19 +125,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vector.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vector.txt">
+      <file leaf-file-name="SerialServer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Server/SerialServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="5" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+            <state line="80" column="16" selection-start="2373" selection-end="2651" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SerialServer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server/SerialServer.java">
+      <file leaf-file-name="ParallelServer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Server/ParallelServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="16" selection-start="2373" selection-end="2651" vertical-scroll-proportion="0.0">
+            <state line="85" column="57" selection-start="2881" selection-end="2962" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,10 +145,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParallelServer.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Server/ParallelServer.java">
+      <file leaf-file-name="Summator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Reflection/Summator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="57" selection-start="2881" selection-end="2962" vertical-scroll-proportion="0.4913295">
+            <state line="5" column="29" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectionTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Reflection/ReflectionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="75" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,24 +174,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SynchronizedVector.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Vectors/SynchronizedVector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="34" selection-start="2658" selection-end="2658" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainProgram.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program/MainProgram.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="10" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LinkedListVector.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Vectors/LinkedListVector.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -190,10 +183,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vectors.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Vectors.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Vectors/Vectors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="12" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.0">
+            <state line="189" column="30" selection-start="5660" selection-end="5660" vertical-scroll-proportion="0.8612717">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JArrayListVector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Vectors/JArrayListVector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="13" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -209,8 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Vectors/WriteVector.java" />
-        <option value="$PROJECT_DIR$/src/Vectors/VectorWriter.java" />
         <option value="$PROJECT_DIR$/src/Vectors/SyncHelper.java" />
         <option value="$PROJECT_DIR$/src/Vectors/VectorReader.java" />
         <option value="$PROJECT_DIR$/src/Factories/ArrayVectorFactory.java" />
@@ -218,13 +218,15 @@
         <option value="$PROJECT_DIR$/src/Program/MainProgram.java" />
         <option value="$PROJECT_DIR$/vector" />
         <option value="$PROJECT_DIR$/src/Vectors/LinkedListVector.java" />
-        <option value="$PROJECT_DIR$/src/Vectors/Vectors.java" />
         <option value="$PROJECT_DIR$/vector.txt" />
         <option value="$PROJECT_DIR$/src/Client/Client.java" />
         <option value="$PROJECT_DIR$/src/Server/ParallerServer.java" />
         <option value="$PROJECT_DIR$/src/Server/StartParallelServer.java" />
         <option value="$PROJECT_DIR$/src/Server/SerialServer.java" />
         <option value="$PROJECT_DIR$/src/Server/ParallelServer.java" />
+        <option value="$PROJECT_DIR$/src/Reflection/Summator.java" />
+        <option value="$PROJECT_DIR$/src/Reflection/ReflectionTest.java" />
+        <option value="$PROJECT_DIR$/src/Vectors/Vectors.java" />
       </list>
     </option>
   </component>
@@ -260,7 +262,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -311,44 +312,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vectors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vectors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -363,12 +329,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.ReflectionTest">
     <configuration default="false" name="MainProgram" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Program.MainProgram" />
       <option name="VM_PARAMETERS" />
@@ -445,6 +412,22 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="ReflectionTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.ReflectionTest" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="Reflection.Summator sum 12 165 26 23.5" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Lab3" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -457,19 +440,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -497,6 +467,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -533,18 +516,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.MainProgram" />
       <item index="1" class="java.lang.String" itemvalue="Application.Client" />
       <item index="2" class="java.lang.String" itemvalue="Application.SerialServer" />
       <item index="3" class="java.lang.String" itemvalue="Application.StartParallelServer" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReflectionTest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StartParallelServer" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SerialServer" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MainProgram" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.ReflectionTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StartParallelServer" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SerialServer" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MainProgram" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -579,7 +564,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -595,8 +580,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26439393" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26363635" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -672,27 +657,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Vectors/ArrayVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="1" selection-start="3443" selection-end="4513" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vectors/JArrayListVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vectors/JLinkedListVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="34" selection-start="2397" selection-end="2397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Vectors/ObservableVector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="22" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
@@ -728,20 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vectors/LinkedListVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="0" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vectors/Vectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="12" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vector.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="5" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
@@ -759,10 +709,7 @@
     <entry file="file://$PROJECT_DIR$/src/Client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="31" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#194#202#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -776,18 +723,53 @@
     <entry file="file://$PROJECT_DIR$/src/Server/SerialServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="16" selection-start="2373" selection-end="2651" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/ParallelServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="57" selection-start="2881" selection-end="2962" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/ParallelServer.java">
+    <entry file="file://$PROJECT_DIR$/src/Vectors/LinkedListVector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="57" selection-start="2881" selection-end="2962" vertical-scroll-proportion="0.4913295">
+        <state line="107" column="0" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vectors/JArrayListVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reflection/Summator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="29" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reflection/ReflectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="75" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vectors/Vectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="30" selection-start="5660" selection-end="5660" vertical-scroll-proportion="0.8612717">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -820,6 +802,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>log4j-1.2.17</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -831,6 +814,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -847,6 +831,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

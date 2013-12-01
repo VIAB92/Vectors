@@ -12,6 +12,8 @@ import Proxies.ProtectedVector;
 import Sorters.Sorter;
 
 import java.io.*;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 import java.util.Random;
 import java.util.StringTokenizer;
 import java.util.ArrayList;
@@ -26,7 +28,7 @@ public class Vectors {
     //Умножение на скаляр
     public static Vector multiplyVectorOn(Vector myVector, double value)
     {
-         Vector vect = createInstance(myVector.getSize());
+         Vector vect = createInstance(myVector, myVector.getSize());
         for (int i=0; i<myVector.getSize(); i++)
         {
             vect.setElement(i, myVector.getElement(i)*value);
@@ -43,7 +45,7 @@ public class Vectors {
         }
         else
         {
-            Vector vect = createInstance(myVector.getSize());
+            Vector vect = createInstance(myVector, myVector.getSize());
             for (int i=0; i<myVector.getSize(); i++)
             {
                 vect.setElement(i, myVector.getElement(i)+anotherVector.getElement(i));
@@ -164,6 +166,28 @@ public class Vectors {
     {
         Vector newVector = vectorFactory.createVector();
         return newVector;
+    }
+
+    public static Vector createInstance(Vector vector, int size)
+    {
+        Object result = null;
+        try
+        {
+            Class clazz = vector.getClass();
+            Constructor[] constructors = clazz.getConstructors();
+            Class[] params = new Class[]{int.class};
+            Constructor constructor = clazz.getConstructor(params);
+            result = constructor.newInstance(size);
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+        return (Vector)result;
     }
 
     public static Vector getAdaptedVector(java.util.Vector<Double> jVector)
